@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="AddressBookForm.css">
+  <title>AddressBookForm</title>
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <div class="logo-content">
+    <img src="Images/addLogo.jpg" alt="logo image" width=50px>
+    <p><b>Address <br> Book</b></p>
+  </div>
+  <header class="header">
+    <b>Person Address Form</b>
+  </header>
+  <div class="inputs">
+    <div>
+      <form action="AddressBookForm.html"></form>
+      <label for="fullName">Full Name: </label><br>
+      <input type="text" id="fullName" name="fullName" placeholder="Enter your Full name">
+      <error-output class="fullName-error" for="fullName"></error-output>
+    </div>
+    <div>
+      <label for="address">Adress: </label><br>
+      <input type="text" id="address" name="address" placeholder=" Enter your Address">
+    </div>
+
+    <div>
+      <label for="phoneNum">Phone Number: </label><br>
+      <input type="number" id="phoneNum" name="phoneNum" placeholder="Enter you Phone Number">
+      <error-output class="phoneNum-error" for="phoneNum"></error-output>
+    </div>
+
+    <div>
+      <label for="city">Select City:</label>
+      <select name="city" id="city">
+        <option value="Akluj">Akluj</option>
+        <option value="Mohol">Mohol</option>
+        <option value="Barshi">Barshi</option>
+        <option value="Akkalkot">Akkalkot</option>
+        <option value="Vijayapura">Vijayapura</option>
+        <option value="Bagalkot">Bagalkot</option>
+        <option value="Bangalore">Bangalore</option>
+      </select>
+      <label for="state">Select State:</label>
+      <select name="state" id="state">
+        <option value="Maharashtra">Maharashtra</option>
+        <option value="Karnataka">Karnataka</option>
+
+      </select>
+      <label for="zipCode">Select Zipcode:</label>
+      <select name="zipCode" id="zipCode">
+        <option value=""></option>
+        <option value="413101">413101</option>
+        <option value="413213">413213</option>
+        <option value="413404">413404</option>
+        <option value="413227">413227</option>
+        <option value="563702">563702</option>
+        <option value="462541">462541</option>
+        <option value="713827">713827</option>
+        <option value="324895">324895</option>
+      </select>
+    </div>
+    <div>
+      <button type="button" onclick="add()">Add</button>
+      <button type="button" onclick="reset()">Reset</button>
+    </div>
+  </div>
+</body>
+<script src="AddressBookForm.js"></script>
+
+</html>

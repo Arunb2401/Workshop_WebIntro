@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "fullName": "Arun Biradar",
+      "address": "Saiful,South Solapur",
+      "phoneNumber": 9606557704,
+      "city": "Solapur",
+      "state": "Maharashtra",
+      "zipCode": 413004
+    },
+    {
+      "id": 2,
+      "fullName": "Arjun Biradar",
+      "address": "Saiful,South Solapur",
+      "phoneNumber": 85236589645,
+      "city": "Solapur",
+      "state": "Maharashtra",
+      "zipCode": 856235
+    },
+    {
+      "fullName": "Vicky",
+      "address": "dsff",
+      "phoneNumber": "9862356526",
+      "city": "Akluj",
+      "state": "Maharashtra",
+      "zipCode": "713827",
+      "id": 3
+    },
+    {
+      "fullName": "arun",
+      "address": "gsf",
+      "phoneNumber": "9853516656",
+      "city": "Akluj",
+      "state": "Maharashtra",
+      "zipCode": "713827",
+      "id": 4
+    }
+  ]
+}

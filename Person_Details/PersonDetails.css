@@ -1,0 +1,26 @@
+*
+body{
+    /* background-image: url("Images/background.jpg") ;
+    background-position:center; */
+    background-color: black
+    ;
+
+}
+.main-content {
+    background-color: aqua;
+}
+.div {
+    font-size: 20px;
+}
+
+.table-main{
+    background-color: white;
+}
+.add1 {
+    font-style: italic;
+    color: orangered;
+}
+.add2 {
+    font-style: italic;
+    color: orangered;
+}
